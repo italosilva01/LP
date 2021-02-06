@@ -78,7 +78,7 @@ class List{
         node *previous = new node;
         node *current = new node;
         current= head;
-        while(current->next == NULL){
+        while(current->next != NULL){
             previous = current;
             current= current->next;
         }
@@ -100,7 +100,7 @@ class List{
     }
 
     /*Custom function*/
-    Song search_music(std::string name){
+    Song search_song(std::string name){
        node *temp = new node;
        temp = head;
        Song m;
@@ -108,9 +108,53 @@ class List{
            if(temp->song.getTitle()==name){
                return temp->song;
            }
+           temp = temp->next;
        }
         std::cout<<"Sorry! music not found!"<<std::endl;
         return m;
+   }
+
+   int delete_song(std::string title){
+
+       node *prev = new node;
+       node *current = new node;
+       current = head;
+       int deleted = -1;
+       while( current->next!=NULL){
+           if (current->song.getTitle() == title){
+               if(current==head){
+                   delete_first();
+                   deleted = 0;
+                   break;
+               }else{
+                    prev->next = current->next;
+                    delete current;
+                    deleted = 0;
+                    break;
+               }
+                
+           }else{
+            prev = current;
+            current = current->next;
+           }
+          
+       }
+       if (current->song.getTitle() == title){
+           tail = prev;
+           prev->next = NULL;
+           delete current;
+           deleted = 0;
+       }
+
+       if(deleted ==  0){
+            std::cout<<"Song deleted!"<<std::endl;
+
+       }else{
+            std::cout<<"Sorry! music not found!"<<std::endl;
+
+       }
+
+        return deleted;
    }
 
 

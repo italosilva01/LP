@@ -15,7 +15,7 @@
         ~Playlist();
         void setName(std::string nomePlaylist);
         void setsongs(Song musica);
-        void remove_music(std::string nameSong);
+        std::string remove_song(std::string nameSong);
         
     };
     
