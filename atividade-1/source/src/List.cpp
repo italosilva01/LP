@@ -16,7 +16,16 @@ class List{
         tail = NULL;
     }
     ~List(){
-
+        node *temp = new node;
+        temp = head;
+        while (temp->next!=NULL)
+        {
+            node *next = temp->next;
+            delete temp;
+            temp = next;
+            
+        }
+        
     }
 
     void createnode(Musica musica){
