@@ -16,7 +16,7 @@ include_directories( "src" "lib" )
 #=== Test target ===
 
 add_executable(prog "src/main.cpp"
-                    "src/Musica.cpp"
+                    "src/Song.cpp"
                     "src/List.cpp")
 
 target_compile_features( prog PUBLIC cxx_std_11 )

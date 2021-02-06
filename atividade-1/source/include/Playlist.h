@@ -6,15 +6,17 @@
     class Playlist
     {
     private:
-        std::string nome;
-        List musicas;
+        std::string name;
+        List songs;
     public:
         Playlist(){};
         Playlist(std::string nomePlaylist);
-        Playlist(std::string nomePlaylist,Musica musica);
+        Playlist(std::string nomePlaylist,Song musica);
         ~Playlist();
-        void setNome();
-        void setMusica();
+        void setName(std::string nomePlaylist);
+        void setsongs(Song musica);
+        void remove_music(std::string nameSong);
+        
     };
     
     

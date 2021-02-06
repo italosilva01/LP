@@ -1,8 +1,8 @@
-#include "../include/Musica.h"
+#include "../include/Song.h"
 
 struct node
 {   
-    Musica musica;
+    Song song;
     node *next;
 };
 
@@ -28,9 +28,9 @@ class List{
         
     }
 
-    void createnode(Musica musica){
+    void createnode(Song song){
         node *temp = new node;
-        temp->musica = musica;
+        temp->song = song;
         temp->next = NULL;
 
         if(head==NULL){
@@ -43,14 +43,14 @@ class List{
         }
     }
 
-    void insert_start(Musica musica){
+    void insert_start(Song song){
         node *temp = new node;
-        temp->musica = musica;
+        temp->song = song;
         temp->next = head;
         head = temp;
     }
     
-    void insert_position(int pos,Musica musica){
+    void insert_position(int pos,Song song){
         node *pre = new node;
         node *cur = new node;
         node *temp = new node;
@@ -61,7 +61,7 @@ class List{
             pre = cur;
             cur =cur->next;
         }
-        temp->musica = musica;
+        temp->song = song;
         pre ->next = temp;
         temp->next = cur;
         
@@ -100,13 +100,13 @@ class List{
     }
 
     /*Custom function*/
-   Musica search_music(std::string nome){
+    Song search_music(std::string name){
        node *temp = new node;
        temp = head;
-       Musica m;
+       Song m;
        while(temp->next!=NULL){
-           if(temp->musica.getTitulo()==nome){
-               return temp->musica;
+           if(temp->song.getTitle()==name){
+               return temp->song;
            }
        }
         std::cout<<"Sorry! music not found!"<<std::endl;

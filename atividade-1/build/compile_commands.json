@@ -6,8 +6,8 @@
 },
 {
   "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src\" -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/lib\"  -g   -o CMakeFiles/prog.dir/src/Musica.cpp.o -c \"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp\"",
-  "file": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp"
+  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src\" -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/lib\"  -g   -o CMakeFiles/prog.dir/src/Song.cpp.o -c \"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp\"",
+  "file": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp"
 },
 {
   "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build",

@@ -1,13 +1,21 @@
 #include "../include/Playlist.h"
 
-Playlist::Playlist(std::string nomePlaylist){
-    nome = nomePlaylist;
+Playlist::Playlist(std::string namePlaylist){
+    name = namePlaylist;
 }
-Playlist::Playlist(std::string nomePlaylist,Musica musica){
-    nome = nomePlaylist;
-    musicas.createnode(musica);
+Playlist::Playlist(std::string namePlaylist,Musica song){
+    name = namePlaylist;
+    songs.createnode(song);
 }
 Playlist::~Playlist(){
-    musicas.~List();
+    songs.~List();
 }
 
+void Playlist::setName(std::string namePlaylist){
+
+    name = namePlaylist;
+}
+void Playlist::setsongs(Musica songsNova){
+    songs.createnode(songsNova);
+
+}

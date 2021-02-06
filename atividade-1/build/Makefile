@@ -150,32 +150,32 @@ src/List.cpp.s:
 	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/List.cpp.s
 .PHONY : src/List.cpp.s
 
-src/Musica.o: src/Musica.cpp.o
+src/Song.o: src/Song.cpp.o
 
-.PHONY : src/Musica.o
+.PHONY : src/Song.o
 
 # target to build an object file
-src/Musica.cpp.o:
-	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Musica.cpp.o
-.PHONY : src/Musica.cpp.o
+src/Song.cpp.o:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Song.cpp.o
+.PHONY : src/Song.cpp.o
 
-src/Musica.i: src/Musica.cpp.i
+src/Song.i: src/Song.cpp.i
 
-.PHONY : src/Musica.i
+.PHONY : src/Song.i
 
 # target to preprocess a source file
-src/Musica.cpp.i:
-	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Musica.cpp.i
-.PHONY : src/Musica.cpp.i
+src/Song.cpp.i:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Song.cpp.i
+.PHONY : src/Song.cpp.i
 
-src/Musica.s: src/Musica.cpp.s
+src/Song.s: src/Song.cpp.s
 
-.PHONY : src/Musica.s
+.PHONY : src/Song.s
 
 # target to generate assembly for a file
-src/Musica.cpp.s:
-	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Musica.cpp.s
-.PHONY : src/Musica.cpp.s
+src/Song.cpp.s:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Song.cpp.s
+.PHONY : src/Song.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -216,9 +216,9 @@ help:
 	@echo "... src/List.o"
 	@echo "... src/List.i"
 	@echo "... src/List.s"
-	@echo "... src/Musica.o"
-	@echo "... src/Musica.i"
-	@echo "... src/Musica.s"
+	@echo "... src/Song.o"
+	@echo "... src/Song.i"
+	@echo "... src/Song.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

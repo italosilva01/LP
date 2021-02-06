@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles/prog.dir/src/List.cpp.o"
-  "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles/prog.dir/src/Musica.cpp.o"
+  "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles/prog.dir/src/Song.cpp.o"
   "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles/prog.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

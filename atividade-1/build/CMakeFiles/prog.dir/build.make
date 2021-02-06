@@ -70,18 +70,18 @@ CMakeFiles/prog.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/main.cpp.s"
 	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp" -o CMakeFiles/prog.dir/src/main.cpp.s
 
-CMakeFiles/prog.dir/src/Musica.cpp.o: CMakeFiles/prog.dir/flags.make
-CMakeFiles/prog.dir/src/Musica.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog.dir/src/Musica.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Musica.cpp.o -c "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp"
+CMakeFiles/prog.dir/src/Song.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/Song.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog.dir/src/Song.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Song.cpp.o -c "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp"
 
-CMakeFiles/prog.dir/src/Musica.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/Musica.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp" > CMakeFiles/prog.dir/src/Musica.cpp.i
+CMakeFiles/prog.dir/src/Song.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/Song.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp" > CMakeFiles/prog.dir/src/Song.cpp.i
 
-CMakeFiles/prog.dir/src/Musica.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/Musica.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp" -o CMakeFiles/prog.dir/src/Musica.cpp.s
+CMakeFiles/prog.dir/src/Song.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/Song.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp" -o CMakeFiles/prog.dir/src/Song.cpp.s
 
 CMakeFiles/prog.dir/src/List.cpp.o: CMakeFiles/prog.dir/flags.make
 CMakeFiles/prog.dir/src/List.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
@@ -99,14 +99,14 @@ CMakeFiles/prog.dir/src/List.cpp.s: cmake_force
 # Object files for target prog
 prog_OBJECTS = \
 "CMakeFiles/prog.dir/src/main.cpp.o" \
-"CMakeFiles/prog.dir/src/Musica.cpp.o" \
+"CMakeFiles/prog.dir/src/Song.cpp.o" \
 "CMakeFiles/prog.dir/src/List.cpp.o"
 
 # External object files for target prog
 prog_EXTERNAL_OBJECTS =
 
 prog: CMakeFiles/prog.dir/src/main.cpp.o
-prog: CMakeFiles/prog.dir/src/Musica.cpp.o
+prog: CMakeFiles/prog.dir/src/Song.cpp.o
 prog: CMakeFiles/prog.dir/src/List.cpp.o
 prog: CMakeFiles/prog.dir/build.make
 prog: CMakeFiles/prog.dir/link.txt
