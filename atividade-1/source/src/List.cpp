@@ -98,8 +98,16 @@ class List{
         }
         previous->next = current->next;
     }
-
-    /*Custom function*/
+    /*--------------------------*/
+    /*CUSTOM FUNCTION*/
+    /*--------------------------*/
+    
+    /* serch_song*/
+    /*descrição : Função percorre a list em busca de uma musica com o mesmo nome do parâmetro name.
+    
+    retorna : Se a música existir na list retorna a música, caso contrário, retorna uma música vázia.
+    
+    */
     Song search_song(std::string name){
        node *temp = new node;
        temp = head;
@@ -114,6 +122,12 @@ class List{
         return m;
    }
 
+    /*
+    delete_song
+
+    
+    
+    */
    int delete_song(std::string title){
 
        node *prev = new node;
