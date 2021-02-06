@@ -90,8 +90,19 @@ class List{
         previous->next = current->next;
     }
 
-    /*Customs*/
-
+    /*Custom function*/
+   Musica search_music(std::string nome){
+       node *temp = new node;
+       temp = head;
+       Musica m;
+       while(temp->next!=NULL){
+           if(temp->musica.getTitulo()==nome){
+               return temp->musica;
+           }
+       }
+        std::cout<<"Sorry! music not found!"<<std::endl;
+        return m;
+   }
 
 
 };

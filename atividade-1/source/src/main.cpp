@@ -5,12 +5,14 @@
 using namespace std;
 
 int main(){
-    Musica aaa("chick chick","gilberto");
+    Musica musicOne("chick chick","gilberto");
+    Musica musicTwo("rapaz","gilberto");
     List playlist;
-    playlist.createnode(aaa);
+    playlist.createnode(musicOne);
+    playlist.createnode(musicTwo);
+    Musica search = playlist.search_music("rapaz");
+
     // aaa.setNomeArtista("ruy");
-    cout<<aaa.getNomeArtista()<<endl;
-    cout<<"dada"<<endl;
 
     return 0;
 }
