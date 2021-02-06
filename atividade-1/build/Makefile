@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build"
+CMAKE_BINARY_DIR = "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ prog: cmake_check_build_system
 prog/fast:
 	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/build
 .PHONY : prog/fast
+
+src/List.o: src/List.cpp.o
+
+.PHONY : src/List.o
+
+# target to build an object file
+src/List.cpp.o:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/List.cpp.o
+.PHONY : src/List.cpp.o
+
+src/List.i: src/List.cpp.i
+
+.PHONY : src/List.i
+
+# target to preprocess a source file
+src/List.cpp.i:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/List.cpp.i
+.PHONY : src/List.cpp.i
+
+src/List.s: src/List.cpp.s
+
+.PHONY : src/List.s
+
+# target to generate assembly for a file
+src/List.cpp.s:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/List.cpp.s
+.PHONY : src/List.cpp.s
 
 src/Musica.o: src/Musica.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... prog"
+	@echo "... src/List.o"
+	@echo "... src/List.i"
+	@echo "... src/List.s"
 	@echo "... src/Musica.o"
 	@echo "... src/Musica.i"
 	@echo "... src/Musica.s"

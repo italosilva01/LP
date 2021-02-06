@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build"
+CMAKE_BINARY_DIR = "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/prog.dir/depend.make
@@ -58,8 +58,8 @@ include CMakeFiles/prog.dir/progress.make
 include CMakeFiles/prog.dir/flags.make
 
 CMakeFiles/prog.dir/src/main.cpp.o: CMakeFiles/prog.dir/flags.make
-CMakeFiles/prog.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prog.dir/src/main.cpp.o"
+CMakeFiles/prog.dir/src/main.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prog.dir/src/main.cpp.o"
 	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/main.cpp.o -c "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp"
 
 CMakeFiles/prog.dir/src/main.cpp.i: cmake_force
@@ -71,8 +71,8 @@ CMakeFiles/prog.dir/src/main.cpp.s: cmake_force
 	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp" -o CMakeFiles/prog.dir/src/main.cpp.s
 
 CMakeFiles/prog.dir/src/Musica.cpp.o: CMakeFiles/prog.dir/flags.make
-CMakeFiles/prog.dir/src/Musica.cpp.o: ../src/Musica.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog.dir/src/Musica.cpp.o"
+CMakeFiles/prog.dir/src/Musica.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog.dir/src/Musica.cpp.o"
 	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Musica.cpp.o -c "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp"
 
 CMakeFiles/prog.dir/src/Musica.cpp.i: cmake_force
@@ -83,19 +83,34 @@ CMakeFiles/prog.dir/src/Musica.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/Musica.cpp.s"
 	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Musica.cpp" -o CMakeFiles/prog.dir/src/Musica.cpp.s
 
+CMakeFiles/prog.dir/src/List.cpp.o: CMakeFiles/prog.dir/flags.make
+CMakeFiles/prog.dir/src/List.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/prog.dir/src/List.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/List.cpp.o -c "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp"
+
+CMakeFiles/prog.dir/src/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/List.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp" > CMakeFiles/prog.dir/src/List.cpp.i
+
+CMakeFiles/prog.dir/src/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/List.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp" -o CMakeFiles/prog.dir/src/List.cpp.s
+
 # Object files for target prog
 prog_OBJECTS = \
 "CMakeFiles/prog.dir/src/main.cpp.o" \
-"CMakeFiles/prog.dir/src/Musica.cpp.o"
+"CMakeFiles/prog.dir/src/Musica.cpp.o" \
+"CMakeFiles/prog.dir/src/List.cpp.o"
 
 # External object files for target prog
 prog_EXTERNAL_OBJECTS =
 
 prog: CMakeFiles/prog.dir/src/main.cpp.o
 prog: CMakeFiles/prog.dir/src/Musica.cpp.o
+prog: CMakeFiles/prog.dir/src/List.cpp.o
 prog: CMakeFiles/prog.dir/build.make
 prog: CMakeFiles/prog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable prog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable prog"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +123,6 @@ CMakeFiles/prog.dir/clean:
 .PHONY : CMakeFiles/prog.dir/clean
 
 CMakeFiles/prog.dir/depend:
-	cd "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles/prog.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build" "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build/CMakeFiles/prog.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/prog.dir/depend
 
