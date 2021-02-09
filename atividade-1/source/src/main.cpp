@@ -1,7 +1,5 @@
 
-#include <iostream>
-#include "../include/Song.h"
-#include "List.cpp"
+#include "../include/Playlist.h"
 using namespace std;
 
 int main(){
@@ -9,14 +7,12 @@ int main(){
     Song musicTwo("rapaz","gilberto");
     Song musicThree("sou foda","amigoproducoeseterno");
 
-    List playlist;
-    playlist.createnode(musicOne);
-    playlist.createnode(musicTwo);
-    playlist.createnode(musicThree);
+    Playlist playlistOne("so_as_melhores");
+    Playlist playlistTwo("so_as_melhores_vol_02",musicOne);
 
-    // Song search = playlist.search_song("a");
-    playlist.delete_song("sou foda");
-    playlist.createnode(musicThree);
+    
+
+   
 
     
     return 0;

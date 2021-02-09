@@ -1,22 +1,17 @@
 [
 {
-  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build",
+  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/build",
   "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src\" -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/lib\"  -g   -o CMakeFiles/prog.dir/src/main.cpp.o -c \"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp\"",
   "file": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp"
 },
 {
-  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build",
+  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/build",
   "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src\" -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/lib\"  -g   -o CMakeFiles/prog.dir/src/Song.cpp.o -c \"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp\"",
   "file": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp"
 },
 {
-  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build",
+  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/build",
   "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src\" -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/lib\"  -g   -o CMakeFiles/prog.dir/src/List.cpp.o -c \"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp\"",
   "file": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp"
-},
-{
-  "directory": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-9   -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src\" -I\"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/lib\"  -g   -o CMakeFiles/prog.dir/src/Playlist.cpp.o -c \"/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Playlist.cpp\"",
-  "file": "/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Playlist.cpp"
 }
 ]

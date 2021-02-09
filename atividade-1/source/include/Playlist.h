@@ -9,13 +9,14 @@
         std::string name;
         List songs;
     public:
-        Playlist(){};
+        Playlist();
         Playlist(std::string nomePlaylist);
         Playlist(std::string nomePlaylist,Song musica);
+        Playlist(int value);
         ~Playlist();
         void setName(std::string nomePlaylist);
-        void setsongs(Song musica);
-        std::string remove_song(std::string nameSong);
+        void setSong(Song musica);
+        void remove_song(std::string nameSong);
         
     };
     

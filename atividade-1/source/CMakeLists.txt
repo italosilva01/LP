@@ -17,6 +17,8 @@ include_directories( "src" "lib" )
 
 add_executable(prog "src/main.cpp"
                     "src/Song.cpp"
-                    "src/List.cpp")
+                    "src/List.cpp"
+                    "src/Playlist.cpp"
+                    )
 
 target_compile_features( prog PUBLIC cxx_std_11 )

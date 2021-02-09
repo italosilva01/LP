@@ -15,16 +15,19 @@ class List{
         head = NULL;
         tail = NULL;
     }
+
     ~List(){
-        node *temp = new node;
-        temp = head;
-        while (temp->next!=NULL)
-        {
-            node *next = temp->next;
-            delete temp;
-            temp = next;
-            
-        }
+       while (head !=NULL)
+       {
+           if(head->next != NULL){
+               node *next = head->next;
+               delete head;
+               head = next;
+           }else{
+               head = NULL;
+           }
+       }
+       
         
     }
 
