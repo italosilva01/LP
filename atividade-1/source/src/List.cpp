@@ -193,7 +193,9 @@ class List{
             return &temp->song;
         }
     }
-
+     /*print_songs
+        Responsável por imprimir todas as musicas da playlist de forma recursiva
+   */
     int print_songs(node* node){
        std::cout<<node->song.getTitle()<<std::endl;
        if(node->next==NULL){
@@ -201,9 +203,13 @@ class List{
        }else{
            print_songs(node->next);
        } 
-
+        return 0;
     }
     
+    /*getFist
+        Retorna o endereço do inicio da lista linkada
+    
+    */
     node* getFist(){
         return head;
     }

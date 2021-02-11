@@ -177,6 +177,33 @@ src/Playlist.cpp.s:
 	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Playlist.cpp.s
 .PHONY : src/Playlist.cpp.s
 
+src/SistemSong.o: src/SistemSong.cpp.o
+
+.PHONY : src/SistemSong.o
+
+# target to build an object file
+src/SistemSong.cpp.o:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/SistemSong.cpp.o
+.PHONY : src/SistemSong.cpp.o
+
+src/SistemSong.i: src/SistemSong.cpp.i
+
+.PHONY : src/SistemSong.i
+
+# target to preprocess a source file
+src/SistemSong.cpp.i:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/SistemSong.cpp.i
+.PHONY : src/SistemSong.cpp.i
+
+src/SistemSong.s: src/SistemSong.cpp.s
+
+.PHONY : src/SistemSong.s
+
+# target to generate assembly for a file
+src/SistemSong.cpp.s:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/SistemSong.cpp.s
+.PHONY : src/SistemSong.cpp.s
+
 src/Song.o: src/Song.cpp.o
 
 .PHONY : src/Song.o
@@ -246,6 +273,9 @@ help:
 	@echo "... src/Playlist.o"
 	@echo "... src/Playlist.i"
 	@echo "... src/Playlist.s"
+	@echo "... src/SistemSong.o"
+	@echo "... src/SistemSong.i"
+	@echo "... src/SistemSong.s"
 	@echo "... src/Song.o"
 	@echo "... src/Song.i"
 	@echo "... src/Song.s"

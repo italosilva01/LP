@@ -9,10 +9,17 @@ CMakeFiles/prog.dir/src/Playlist.cpp.o: /home/italo/Área\ de\ Trabalho/faculdad
 CMakeFiles/prog.dir/src/Playlist.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
 CMakeFiles/prog.dir/src/Playlist.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Playlist.cpp
 
+CMakeFiles/prog.dir/src/SistemSong.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Playlist.h
+CMakeFiles/prog.dir/src/SistemSong.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/SistemSong.h
+CMakeFiles/prog.dir/src/SistemSong.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Song.h
+CMakeFiles/prog.dir/src/SistemSong.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
+CMakeFiles/prog.dir/src/SistemSong.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/SistemSong.cpp
+
 CMakeFiles/prog.dir/src/Song.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Song.h
 CMakeFiles/prog.dir/src/Song.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp
 
 CMakeFiles/prog.dir/src/main.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Playlist.h
+CMakeFiles/prog.dir/src/main.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/SistemSong.h
 CMakeFiles/prog.dir/src/main.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Song.h
 CMakeFiles/prog.dir/src/main.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
 CMakeFiles/prog.dir/src/main.cpp.o: /home/italo/Área\ de\ Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/main.cpp
