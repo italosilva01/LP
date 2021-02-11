@@ -8,6 +8,7 @@
     private:
         std::string name;
         List songs;
+        int controll;
     public:
         Playlist();
         Playlist(std::string nomePlaylist);
@@ -17,7 +18,10 @@
         void setName(std::string nomePlaylist);
         void setSong(Song musica);
         void remove_song(std::string nameSong);
-        
+        int getControll();
+        Song * getNextSong();
+        int printSongs();
+        node* getFirstSong();
     };
     
     

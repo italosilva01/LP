@@ -8,12 +8,13 @@ int main(){
     Song musicThree("sou foda","amigoproducoeseterno");
 
     Playlist playlistOne("so_as_melhores");
-    Playlist playlistTwo("so_as_melhores_vol_02",musicOne);
-
+    playlistOne.setSong(musicOne);
+    playlistOne.setSong(musicTwo);
+    playlistOne.setSong(musicThree);
     
-
-   
-
+    playlistOne.getNextSong();
+    playlistOne.getNextSong();
+    playlistOne.printSongs();
     
     return 0;
 }

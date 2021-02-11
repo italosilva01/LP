@@ -106,8 +106,7 @@ class List{
     /*--------------------------*/
     
     /* serch_song*/
-    /*descrição : Função percorre a list em busca de uma musica com o mesmo nome do parâmetro name.
-    
+    /*descrição : Função percorre a list em busca de uma musica com o mesmo nome do parâmetro name. 
     retorna : Se a música existir na list retorna a música, caso contrário, retorna uma música vázia.
     
     */
@@ -127,7 +126,7 @@ class List{
 
     /*
     delete_song
-
+    busca uma música por um nome. Caso exista, deleta a música da lista
     
     
     */
@@ -173,6 +172,41 @@ class List{
 
         return deleted;
    }
+   /*next_song
+    vai retornar a próxima música a ser tocada
+   
+   */
+
+    Song *next_song(int controll){
+
+        node *temp = head;
+
+        for (int c = 0;c < controll;c++ ){
+            temp = temp->next;
+
+        }
+        if( temp ==NULL){
+            std::cout<<"not exist next song"<<std::endl;            
+            return NULL;
+        }else{
+            std::cout<<"Next song to play : "<< temp->song.getTitle()<<std::endl;
+            return &temp->song;
+        }
+    }
+
+    int print_songs(node* node){
+       std::cout<<node->song.getTitle()<<std::endl;
+       if(node->next==NULL){
+           return 0;
+       }else{
+           print_songs(node->next);
+       } 
+
+    }
+    
+    node* getFist(){
+        return head;
+    }
 
 
 };
