@@ -6,11 +6,39 @@
 
 #IncludeRegexTransform: 
 
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Playlist.h
+iostream
+-
+string
+-
+../src/List.cpp
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
+
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/SistemSong.h
+iostream
+-
+string
+-
+Playlist.h
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Playlist.h
+
 /home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Song.h
 iostream
 -
 string
 -
+
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/List.cpp
+../include/Song.h
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Song.h
+
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Playlist.cpp
+../include/Playlist.h
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/Playlist.h
+
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/SistemSong.cpp
+../include/SistemSong.h
+/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/include/SistemSong.h
 
 /home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/src/Song.cpp
 ../include/Song.h

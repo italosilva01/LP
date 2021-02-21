@@ -12,7 +12,7 @@ int main(){
     odoa.setPlaylist(teste);
     odoa.setPlaylist(teste02);
     odoa.printPlaylist();
-
+    List listaExemple;
     
     odoa.printPlaylist();
     teste02.~Playlist();

@@ -8,7 +8,7 @@ project (nome_do_projeto VERSION 1.0.0 LANGUAGES CXX )
 
 #=== SETTING VARIABLES ===#
 # Compiling flags
-set( GCC_COMPILE_FLAGS "-Wall" )
+set( GCC_COMPILE_FLAGS "-Wall" "-Wextra" "-pedantic" "-Werror" )
 
 # Include dir
 include_directories( "src" "lib" )
