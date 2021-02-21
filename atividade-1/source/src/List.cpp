@@ -110,18 +110,18 @@ class List{
     retorna : Se a música existir na list retorna a música, caso contrário, retorna uma música vázia.
     
     */
-    Song search_song(std::string name){
+    Song* search_song(std::string name){
        node *temp = new node;
        temp = head;
-       Song m;
+     
        while(temp->next!=NULL){
            if(temp->song.getTitle()==name){
-               return temp->song;
+               return &temp->song;
            }
            temp = temp->next;
        }
         std::cout<<"Sorry! music not found!"<<std::endl;
-        return m;
+        return NULL;
    }
 
     /*
@@ -155,7 +155,7 @@ class List{
            }
           
        }
-       if (current->song.getTitle() == title){
+       if (deleted == -1 && current->song.getTitle() == title){
            tail = prev;
            prev->next = NULL;
            delete current;
@@ -207,7 +207,7 @@ class List{
     }
     
     /*getFist
-        Retorna o endereço do inicio da lista linkada
+        Retorna o endereço da head da lista linkada
     
     */
     node* getFist(){

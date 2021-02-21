@@ -20,6 +20,8 @@ add_executable(prog "src/main.cpp"
                     "src/List.cpp"
                     "src/Playlist.cpp"
                     "src/SistemSong.cpp"
+                    "src/ListOfPlaylist.cpp"
+                    "src/SistemPlaylist.cpp"
                     )
 
 target_compile_features( prog PUBLIC cxx_std_11 )

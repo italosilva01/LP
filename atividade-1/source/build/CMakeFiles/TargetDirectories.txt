@@ -1,3 +1,0 @@
-/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles/rebuild_cache.dir
-/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles/edit_cache.dir
-/home/italo/Área de Trabalho/faculdade/lp/lp-exercicies/atividade-1/source/build/CMakeFiles/prog.dir

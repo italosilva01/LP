@@ -13,10 +13,11 @@
         Playlist();
         Playlist(std::string nomePlaylist);
         Playlist(std::string nomePlaylist,Song musica);
-        Playlist(int value);
         ~Playlist();
         void setName(std::string nomePlaylist);
-        void setSong(Song musica);
+        void setSong(std::string name,std::string artist);
+        void setSong(Song song);
+        std::string getName();
         void remove_song(std::string nameSong);
         int getControll();
         Song * getNextSong();

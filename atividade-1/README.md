@@ -2,26 +2,26 @@
 
 ### Francisco Italo Silva do Nascimento
 
-## Funções
+## Versão do Compilador
 
-<span >### Arquivo **List.cpp**</span>
+c++11
 
-<hr>
+## SO usado
 
-### Song search_song(std::string name)
+Mint20
 
-**_descrição :_** Função percorre a list em busca de uma musica com o mesmo nome do parâmetro **name**.
-<br/>
-<br/>
-**_retorna :_** Se a música existir na list retorna a música, caso contrário, retorna uma música vázia.
-<br/>
-<br/>
+## :checkered_flag: Starting
 
-</hr>
+```bash
 
-### int delete_song(std::string title){
+# to compile
 
-**_descrição :_** Função percorre a list em busca de uma musica com o mesmo nome do parâmetro **name**, caso exista, a musica é apagada da list.
-<br/>
-<br/>
-**_retorna :_** Se a música existir na list é apagada, caso contrário, não acontece nada.
+$ cmake -S source -Bbuild
+$ cmake --build build
+
+# Run the project
+
+$ ./build/prog
+
+# Remember to execute the commands in the root
+```

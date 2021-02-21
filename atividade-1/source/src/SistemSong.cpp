@@ -1,18 +1,26 @@
 #include "../include/SistemSong.h"
 
 SistemSong::SistemSong(){
-    this->defaultPlaylist.setName("unlistSongs");
+
 };
 
 SistemSong::SistemSong(std::string nameSistemSong){
-    this->name = nameSistemSong;
+    name = nameSistemSong;
+    
 };
 
-void SistemSong::addSong(std::string name,std::string artist){
-    Song newSong(name,artist);
-    defaultPlaylist.setSong(newSong);
+
+void SistemSong::addSong(std::string name,std::string artist ){
+    Song newSong(name, artist);
+    defaultSongs.createnode(newSong);
+    
 }
+// Song SistemSong::addInPlaylist(std::string name){
+//     return defaultSongs.search_song(name);
+// }; 
 
 SistemSong::~SistemSong(){
-    defaultPlaylist.~Playlist();
+    std::cout<<"deleting sistem song "<<name<<std::endl;
+    defaultSongs.~List();
 };
+    

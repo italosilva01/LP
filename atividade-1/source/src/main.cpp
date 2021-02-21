@@ -1,21 +1,21 @@
 
 #include "../include/SistemSong.h"
+#include "../include/SistemPlaylist.h"
 using namespace std;
 
 int main(){
-    SistemSong defaultSistem;
-    defaultSistem.addSong("chick chick","gilberto");
-    Song musicTwo("rapaz","gilberto");
-    Song musicThree("sou foda","amigoproducoeseterno");
-    Playlist unlistedSongs("unlisted_songs");
+    SistemSong defaultSistem("defaultSistem");
+    Playlist teste("teste");
+    Playlist teste02("dlkwkaw");
+    SistemPlaylist odoa;
+    odoa.setName("dajw");
+    odoa.setPlaylist(teste);
+    odoa.setPlaylist(teste02);
+    odoa.printPlaylist();
 
-    Playlist playlistOne("so_as_melhores");
-    playlistOne.setSong(musicTwo);
-    playlistOne.setSong(musicThree);
     
-    playlistOne.getNextSong();
-    playlistOne.getNextSong();
-    playlistOne.printSongs();
+    odoa.printPlaylist();
+    teste02.~Playlist();
     
     return 0;
 }

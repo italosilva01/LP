@@ -6,15 +6,17 @@
 #include "Playlist.h"
 class SistemSong
 {
-private:
-   Playlist defaultPlaylist;
+private: 
+    List defaultSongs;
     std::string name;
 public:
     SistemSong();
     SistemSong(std::string name);
     ~SistemSong();
-    void addSong(std::string name,std::string artist );
-
+    //adiciona uma nova música a lista defaultSongs
+    void addSong(std::string name,std::string artist);
+    // Song* addInPlaylist(std::string name); 
+   
 };
 
 

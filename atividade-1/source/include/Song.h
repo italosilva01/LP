@@ -10,8 +10,8 @@ class Song {
         void setNameArtist(std::string title);
         std::string getTitle();
         std::string getNameArtist();
-        ~Song(){};
-        Song(){};
+        ~Song();
+        Song();
         Song(std::string title,std::string nameArtist);
     private:
         std::string title;

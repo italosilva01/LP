@@ -150,6 +150,33 @@ src/List.cpp.s:
 	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/List.cpp.s
 .PHONY : src/List.cpp.s
 
+src/ListOfPlaylist.o: src/ListOfPlaylist.cpp.o
+
+.PHONY : src/ListOfPlaylist.o
+
+# target to build an object file
+src/ListOfPlaylist.cpp.o:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ListOfPlaylist.cpp.o
+.PHONY : src/ListOfPlaylist.cpp.o
+
+src/ListOfPlaylist.i: src/ListOfPlaylist.cpp.i
+
+.PHONY : src/ListOfPlaylist.i
+
+# target to preprocess a source file
+src/ListOfPlaylist.cpp.i:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ListOfPlaylist.cpp.i
+.PHONY : src/ListOfPlaylist.cpp.i
+
+src/ListOfPlaylist.s: src/ListOfPlaylist.cpp.s
+
+.PHONY : src/ListOfPlaylist.s
+
+# target to generate assembly for a file
+src/ListOfPlaylist.cpp.s:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/ListOfPlaylist.cpp.s
+.PHONY : src/ListOfPlaylist.cpp.s
+
 src/Playlist.o: src/Playlist.cpp.o
 
 .PHONY : src/Playlist.o
@@ -176,6 +203,33 @@ src/Playlist.s: src/Playlist.cpp.s
 src/Playlist.cpp.s:
 	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/Playlist.cpp.s
 .PHONY : src/Playlist.cpp.s
+
+src/SistemPlaylist.o: src/SistemPlaylist.cpp.o
+
+.PHONY : src/SistemPlaylist.o
+
+# target to build an object file
+src/SistemPlaylist.cpp.o:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/SistemPlaylist.cpp.o
+.PHONY : src/SistemPlaylist.cpp.o
+
+src/SistemPlaylist.i: src/SistemPlaylist.cpp.i
+
+.PHONY : src/SistemPlaylist.i
+
+# target to preprocess a source file
+src/SistemPlaylist.cpp.i:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/SistemPlaylist.cpp.i
+.PHONY : src/SistemPlaylist.cpp.i
+
+src/SistemPlaylist.s: src/SistemPlaylist.cpp.s
+
+.PHONY : src/SistemPlaylist.s
+
+# target to generate assembly for a file
+src/SistemPlaylist.cpp.s:
+	$(MAKE) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/src/SistemPlaylist.cpp.s
+.PHONY : src/SistemPlaylist.cpp.s
 
 src/SistemSong.o: src/SistemSong.cpp.o
 
@@ -270,9 +324,15 @@ help:
 	@echo "... src/List.o"
 	@echo "... src/List.i"
 	@echo "... src/List.s"
+	@echo "... src/ListOfPlaylist.o"
+	@echo "... src/ListOfPlaylist.i"
+	@echo "... src/ListOfPlaylist.s"
 	@echo "... src/Playlist.o"
 	@echo "... src/Playlist.i"
 	@echo "... src/Playlist.s"
+	@echo "... src/SistemPlaylist.o"
+	@echo "... src/SistemPlaylist.i"
+	@echo "... src/SistemPlaylist.s"
 	@echo "... src/SistemSong.o"
 	@echo "... src/SistemSong.i"
 	@echo "... src/SistemSong.s"
